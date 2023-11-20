@@ -1,0 +1,58 @@
+{
+  "name": "vue2-screen",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve  --mode dev",
+    "build": "vue-cli-service build",
+    "build:prod": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.30.2",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.9",
+    "process": "^0.11.10",
+    "vue": "2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-echarts": "^6.0.2",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/compat-data": "7.9.0",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "@vue/composition-api": "^1.7.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "2.6.11",
+    "webpack": "^4.44.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
